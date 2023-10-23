@@ -15,9 +15,9 @@ body{
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    column-gap: 12px;
+    column-gap: 15px;
 /*     grid-template-rows: 180px auto 180px;*/
-    row-gap: 12px; 
+    row-gap: 20px; 
 }
 .grid-container img, .grid-container video{
 max-width: 100%;
@@ -26,12 +26,19 @@ height: auto;
 header{
     display: grid;
     grid-template-columns: 1fr 3fr;
-    background-color: rgb(229, 241, 216);
+    background-color: rgba(110, 185, 60, 0.708);
     border-radius: 12px;
-    margin-bottom: 10px;
-    box-shadow: 3px 3px 5px yellowgreen;
+    margin-bottom: 25px;
+    box-shadow: 3px 3px 5px rgb(70, 24, 12);
     color: rgb(102, 60, 15);
+    text-align: justify;
+
 }
+.primer-letra::first-letter {
+    color: rgb(72, 6, 6);
+    font-size: 60px;
+
+  }
 @media(max-width:400px){
 body{
     background-color: rgb(155, 235, 125);
@@ -45,6 +52,18 @@ body{
     padding: 1em;
     border: groove rgb(147, 179, 125);
     border-radius: 3%;
-    box-shadow: 4px 4px 6px rgb(34, 85, 27);
+    box-shadow: 4px 4px 6px rgb(142, 207, 30);
+}
+h1{ 
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: linear-gradient(to right, #00ff00 20%, #ff9d00 30%);;
+}
+h3{
+    color:rgb(59, 3, 3);
+
+}
+p{
+
 
 }
